@@ -1,4 +1,6 @@
 # Bitcoin price checker
+
+## Change the name of .env.example to .env
 ## Should work after running these commands
 
 ### I am on the lts version of node v18.12.1
@@ -7,12 +9,11 @@
 
 ```composer install```
 
+```php artisan key:generate```
+
 ```php artisan migrate```
 
-```npm run dev```
-
-## Then in another terminal just spin it up on local host with
+### choose yes to creating the sql lite DB
 
 ```php artisan serve```
 
-## Also change the name of .env.example to .env

@@ -14,3 +14,5 @@
 ## Then in another terminal just spin it up on local host with
 
 ```php artisan serve```
+
+## Also change the name of .env.example to .env

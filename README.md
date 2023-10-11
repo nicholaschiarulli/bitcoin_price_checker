@@ -5,8 +5,12 @@
 
 ```npm i```
 
+```composer install```
+
 ```php artisan migrate```
 
-## Then just spin it up on local host with
+```npm run dev```
+
+## Then in another terminal just spin it up on local host with
 
 ```php artisan serve```
